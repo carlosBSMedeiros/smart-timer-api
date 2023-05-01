@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTimer.Web", "SmartTimer.Web\SmartTimer.Web.csproj", "{EC1D920F-F069-43EE-A4C5-BFE283FC1DE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTimer.Dominio", "SmartTimer.Dominio\SmartTimer.Dominio.csproj", "{2EBA2FF4-B1D1-480F-A085-39375E0174F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTimer.DataTransfer", "SmartTimer.DataTransfer\SmartTimer.DataTransfer.csproj", "{180D8A22-EE65-4486-AB7A-3216875BAEAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTimer.Infra", "SmartTimer.Infra\SmartTimer.Infra.csproj", "{FD5067A8-66FE-402B-AB2D-D65D5535EE99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTimer.Aplicacao", "SmartTimer.Aplicacao\SmartTimer.Aplicacao.csproj", "{C9AF495D-4EC3-42A9-9B05-C05B5AC04EFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTimer.IoC", "SmartTimer.IoC\SmartTimer.IoC.csproj", "{3E6A7B02-2DB8-4494-97F5-AB7AE7137BC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC1D920F-F069-43EE-A4C5-BFE283FC1DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D920F-F069-43EE-A4C5-BFE283FC1DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D920F-F069-43EE-A4C5-BFE283FC1DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D920F-F069-43EE-A4C5-BFE283FC1DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBA2FF4-B1D1-480F-A085-39375E0174F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBA2FF4-B1D1-480F-A085-39375E0174F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBA2FF4-B1D1-480F-A085-39375E0174F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBA2FF4-B1D1-480F-A085-39375E0174F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180D8A22-EE65-4486-AB7A-3216875BAEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180D8A22-EE65-4486-AB7A-3216875BAEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180D8A22-EE65-4486-AB7A-3216875BAEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180D8A22-EE65-4486-AB7A-3216875BAEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5067A8-66FE-402B-AB2D-D65D5535EE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5067A8-66FE-402B-AB2D-D65D5535EE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5067A8-66FE-402B-AB2D-D65D5535EE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5067A8-66FE-402B-AB2D-D65D5535EE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AF495D-4EC3-42A9-9B05-C05B5AC04EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AF495D-4EC3-42A9-9B05-C05B5AC04EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AF495D-4EC3-42A9-9B05-C05B5AC04EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AF495D-4EC3-42A9-9B05-C05B5AC04EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6A7B02-2DB8-4494-97F5-AB7AE7137BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6A7B02-2DB8-4494-97F5-AB7AE7137BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6A7B02-2DB8-4494-97F5-AB7AE7137BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6A7B02-2DB8-4494-97F5-AB7AE7137BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04C2757D-DE84-4628-9C65-4CD08EA07945}
+	EndGlobalSection
+EndGlobal
